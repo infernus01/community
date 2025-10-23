@@ -366,6 +366,22 @@ orgs:
         repos:
           plumbing: maintain
           infra: maintain
+      pruner.maintainers:
+        description: the pruner maintainers
+        maintainers:
+          - anithapriyanatarajan
+          - pramodbindal
+          - vdemeester
+        members:
+          - divyansh42
+          - jkhelil
+          - jkandasa
+          - savitaashture
+          - waveywaves
+          - infernus01
+        privacy: closed
+        repos:
+          pruner: maintain
       results.maintainers:
         description: the results maintainers
         maintainers:
@@ -685,6 +701,22 @@ orgs:
         repos:
           plumbing: read
           infra: read
+      pruner.collaborators:
+        description: The pruner collaborators
+        maintainers:
+          - anithapriyanatarajan
+          - pramodbindal
+          - vdemeester
+        members:
+          - divyansh42
+          - jkhelil
+          - jkandasa
+          - infernus01
+          - savitaashture
+          - waveywaves
+        privacy: closed
+        repos:
+          pruner: read
       cli.collaborators:
         description: The cli collaborators
         maintainers:
@@ -944,4 +976,3 @@ orgs:
         privacy: closed
         repos:
           golang: read
-
